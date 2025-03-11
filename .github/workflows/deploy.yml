@@ -33,7 +33,7 @@ jobs:
         run: |
           ls -la  # Debugging: Check existing files
           npm run build
-          ls build/  # Verify build folder creation
+          ls dist/  # Verify dist folder creation
 
       - name: Deploy via FTP
         uses: SamKirkland/FTP-Deploy-Action@4.0.0
