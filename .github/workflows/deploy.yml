@@ -18,11 +18,22 @@ jobs:
         with:
           node-version: 18
 
+      - name: Cache Node Modules
+        uses: actions/cache@v3
+        with:
+          path: ~/.npm
+          key: ${{ runner.os }}-npm-${{ hashFiles('**/package-lock.json') }}
+          restore-keys: |
+            ${{ runner.os }}-npm-
+
       - name: Install dependencies
         run: npm install
 
       - name: Build the React app
-        run: npm run build
+        run: |
+          ls -la  # Debugging: Check existing files
+          npm run build
+          ls build/  # Verify build folder creation
 
       - name: Deploy via FTP
         uses: SamKirkland/FTP-Deploy-Action@4.0.0
@@ -32,5 +43,41 @@ jobs:
           password: ${{ secrets.FTP_PASSWORD }}
           local-dir: build/
           server-dir: /
-          
+
+
+# name: Deploy to Hostinger
+
+# on:
+#   push:
+#     branches:
+#       - main
+
+# jobs:
+#   deploy:
+#     runs-on: ubuntu-latest
+
+#     steps:
+#       - name: Checkout repository
+#         uses: actions/checkout@v2
+
+#       - name: Install Node.js
+#         uses: actions/setup-node@v2
+#         with:
+#           node-version: 18
+
+#       - name: Install dependencies
+#         run: npm install
+
+#       - name: Build the React app
+#         run: npm run build
+
+#       - name: Deploy via FTP
+#         uses: SamKirkland/FTP-Deploy-Action@4.0.0
+#         with:
+#           server: ftp://147.93.17.65
+#           username: u227571943.hashcode.in
+#           password: ${{ secrets.FTP_PASSWORD }}
+#           local-dir: build/
+#           server-dir: /
+
 
