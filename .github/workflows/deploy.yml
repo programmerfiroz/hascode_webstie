@@ -29,7 +29,8 @@ jobs:
         with:
           server: ftp://147.93.17.65
           username: u227571943.hashcode.in
-          password: ${{ X2OM?Gv!:NBh|p2R }}
+          password: ${{ secrets.FTP_PASSWORD }}
           local-dir: build/
           server-dir: /
+          
 
