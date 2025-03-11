@@ -38,8 +38,8 @@ jobs:
       - name: Deploy via FTP
         uses: SamKirkland/FTP-Deploy-Action@4.0.0
         with:
-          server: ftp://147.93.17.65
-          username: u227571943.hashcode.in
+          server: ftp.hashcode.in	
+          username: u227571943.hashcode
           password: ${{ secrets.FTP_PASSWORD }}
           local-dir: dist/
           server-dir: /
