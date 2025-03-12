@@ -24,8 +24,8 @@ const Header = () => {
     <header className={`header ${scrolled ? 'scrolled' : ''}`}>
       <div className="container">
         <div className="logo">
-          
-          <img src="logo.png" alt="Hashcode team" style={{height:'50px',width:"200px"}} /> 
+          <h1>Hash<span>Code</span></h1>
+          {/* <img  src="hashcodelogo.png" alt="Hashcode team" className="main-image" /> */}
         </div>
 
         <nav className="main-nav">
