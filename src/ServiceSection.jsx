@@ -5,7 +5,7 @@ const serviceIcons = {
   'Web Development': 'https://cdn-icons-png.flaticon.com/512/732/732212.png',
   'App Development': 'https://cdn-icons-png.flaticon.com/512/888/888879.png',
   'UI/UX Design': 'https://cdn-icons-png.flaticon.com/512/1055/1055666.png',
-  'SEO Optimization': 'https://cdn-icons-png.flaticon.com/512/2301/2301121.png',
+  'SEO Optimization': 'seo.png',
   'Digital Marketing': 'https://cdn-icons-png.flaticon.com/512/733/733553.png',
   'E-commerce Solutions': 'https://cdn-icons-png.flaticon.com/512/3076/3076103.png',
 };
@@ -39,10 +39,10 @@ const ServiceSection = () => {
         <div className="service-grid">
           {services.map((service, index) => (
             <div className="service-item" key={index}>
-              <img 
-                src={serviceIcons[service.title]} 
-                alt={service.title} 
-                className="service-image" 
+              <img
+                src={serviceIcons[service.title]}
+                alt={service.title}
+                className="service-image"
               />
               <div className="service-overlay">
                 <h3>{service.title}</h3>
