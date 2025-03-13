@@ -20,7 +20,7 @@ const ContactSection = () => {
         <div className="contact-content">
           <div className="contact-info">
             <div className="info-item">
-              <div className="info-icon location-icon"></div>
+              <div className="info-icon location-icon">a</div>
               <div className="info-text">
                 <h4>Our Office</h4>
                 <p>Block C, C8, C Block, Sector 63, Noida, Uttar Pradesh 201301, India</p>
