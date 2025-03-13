@@ -2,12 +2,12 @@ import React from 'react';
 import './ServiceSection.css';
 
 const serviceIcons = {
-  'Web Development': 'https://cdn-icons-png.flaticon.com/512/732/732212.png',
+  'Web Development': 'monitor.png',
   'App Development': 'android.png',
-  'UI/UX Design': 'https://cdn-icons-png.flaticon.com/512/1055/1055666.png',
+  'UI/UX Design': 'uiux.png',
   'SEO Optimization': 'seo.png',
-  'Digital Marketing': 'https://cdn-icons-png.flaticon.com/512/733/733553.png',
-  'E-commerce Solutions': 'https://cdn-icons-png.flaticon.com/512/3076/3076103.png',
+  'Digital Marketing': 'digitalmarketing.png',
+  'E-commerce Solutions': 'shopping.png',
 };
 
 
