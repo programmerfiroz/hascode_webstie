@@ -20,7 +20,7 @@ const portfolioItems = [
   {
     title: "Fee Management",
     description: "Complete fee tracking and payment solutions.",
-    image: "fees.jpg",
+    image: "fees.jpeg",
   },
   {
     title: "Gym",
@@ -35,17 +35,17 @@ const portfolioItems = [
   {
     title: "Studio Management",
     description: "Photography & video studio scheduling and billing.",
-    image: "studio.jpg",
+    image: "studio.webp",
   },
   {
     title: "Properties",
     description: "Real estate property listings and management.",
-    image: "https://via.placeholder.com/300",
+    image: "properties.webp",
   },
   {
     title: "Institute",
     description: "Complete education institute management.",
-    image: "https://via.placeholder.com/300",
+    image: "institute.jpg",
   },
 ];
 
