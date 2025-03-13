@@ -7,7 +7,7 @@ const serviceIcons = {
   'UI/UX Design': 'ux.png',
   'SEO Optimization': 'seo.png',
   'Digital Marketing': 'digitalmarketing.png',
-  'E-commerce Solutions': 'shopping.png',
+  'E-commerce': 'shopping.png',
 };
 
 
