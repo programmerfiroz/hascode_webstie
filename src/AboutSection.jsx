@@ -13,7 +13,7 @@ const AboutSection = () => {
             <span className="divider-dot"></span>
           </div>
           <p className="section-subtitle">
-            Your trusted technology partner since 2018
+            Your trusted technology partner since 2023
           </p>
         </div>
 
