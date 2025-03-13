@@ -2,7 +2,7 @@ import React from 'react';
 import './ServiceSection.css';
 
 const serviceIcons = {
-  'Web Development': 'monitor.png',
+  'Web Development': 'mobile.png',
   'App Development': 'android.png',
   'UI/UX Design': 'uiux.png',
   'SEO Optimization': 'seo.png',
