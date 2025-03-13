@@ -262,7 +262,7 @@
 
 .secondary-btn:hover {
   background-color: var(--dark-blue);
-  color: white;
+  /* color: rgb(148, 96, 96); */
 }
 
 /* Company Stats */
