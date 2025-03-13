@@ -42,15 +42,14 @@ const Hero = () => {
           </div>
         </div>
         
-        <div className="hero-image">
+        {/* <div className="hero-image">
           <div className="image-container">
-            {/* This would be replaced with actual images in production */}
             <div className="abstract-shape shape-1"></div>
             <div className="abstract-shape shape-2"></div>
             <div className="abstract-shape shape-3"></div>
             <div className="main-illustration"></div>
           </div>
-        </div>
+        </div> */}
       </div>
     </section>
   );
