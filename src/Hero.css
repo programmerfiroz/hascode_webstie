@@ -112,7 +112,7 @@
 
 .secondary-btn:hover {
   background-color: var(--dark-blue);
-  color: white;
+  /* color: white; */
 }
 
 .service-cards {

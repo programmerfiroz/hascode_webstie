@@ -15,7 +15,7 @@ const Hero = () => {
           </p>
           <div className="hero-buttons">
             <button className="btn primary-btn">Get Started</button>
-            <button className="btn primary-btn">Our Services</button>
+            <button className="btn secondary-btn">Our Services</button>
           </div>
           
           <div className="service-cards">
