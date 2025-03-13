@@ -20,22 +20,22 @@ const portfolioItems = [
   {
     title: "Fee Management",
     description: "Complete fee tracking and payment solutions.",
-    image: "https://via.placeholder.com/300",
+    image: "fees.jpg",
   },
   {
     title: "Gym",
     description: "Personalized fitness and membership management.",
-    image: "https://via.placeholder.com/300",
+    image: "zym.jpg",
   },
   {
     title: "School Management",
     description: "Manage student records, attendance, and more.",
-    image: "https://via.placeholder.com/300",
+    image: "school.jpg",
   },
   {
     title: "Studio Management",
     description: "Photography & video studio scheduling and billing.",
-    image: "https://via.placeholder.com/300",
+    image: "studio.jpg",
   },
   {
     title: "Properties",
