@@ -50,7 +50,7 @@ const FooterSection = () => {
       </div>
 
       <div className="footer-bottom">
-        <p>© {new Date().getFullYear()} Your Company. All Rights Reserved.</p>
+        <p>© {new Date().getFullYear()} HashCode Technologies. All Rights Reserved.</p>
       </div>
     </footer>
   );

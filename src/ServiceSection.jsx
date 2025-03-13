@@ -17,7 +17,7 @@ const services = [
   { title: 'UI/UX Design', description: 'Designing user-friendly interfaces' },
   { title: 'SEO Optimization', description: 'Boosting website visibility on search engines' },
   { title: 'Digital Marketing', description: 'Strategic online marketing solutions' },
-  { title: 'E-commerce Solutions', description: 'Developing online shopping platforms' }
+  { title: 'E-commerce', description: 'Developing online shopping platforms' }
 ];
 
 const ServiceSection = () => {

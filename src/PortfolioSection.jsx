@@ -1,6 +1,54 @@
 import React from 'react';
 import './PortfolioSection.css';
 
+const portfolioItems = [
+  {
+    title: "E-commerce",
+    description: "Online store with seamless user experience and payment integration",
+    image: "https://im.haberturk.com/l/2023/11/27/ver1701082044/3640476/jpg/1200x628",
+  },
+  {
+    title: "CRM System",
+    description: "Manage customer relationships with data-driven insights",
+    image: "https://imageio.forbes.com/specials-images/imageserve/60d787f52b2b7f840237cb3d/0x0.jpg?format=jpg&height=600&width=1200&fit=bounds",
+  },
+  {
+    title: "HRM Solution",
+    description: "Streamline human resource management for businesses",
+    image: "https://www.datocms-assets.com/40521/1614850600-hrms-6.png",
+  },
+  {
+    title: "Fee Management",
+    description: "Complete fee tracking and payment solutions.",
+    image: "https://via.placeholder.com/300",
+  },
+  {
+    title: "Gym",
+    description: "Personalized fitness and membership management.",
+    image: "https://via.placeholder.com/300",
+  },
+  {
+    title: "School Management",
+    description: "Manage student records, attendance, and more.",
+    image: "https://via.placeholder.com/300",
+  },
+  {
+    title: "Studio Management",
+    description: "Photography & video studio scheduling and billing.",
+    image: "https://via.placeholder.com/300",
+  },
+  {
+    title: "Properties",
+    description: "Real estate property listings and management.",
+    image: "https://via.placeholder.com/300",
+  },
+  {
+    title: "Institute",
+    description: "Complete education institute management.",
+    image: "https://via.placeholder.com/300",
+  },
+];
+
 const PortfolioSection = () => {
   return (
     <section className="portfolio-section" id="portfolio">
@@ -18,27 +66,15 @@ const PortfolioSection = () => {
         </div>
 
         <div className="portfolio-grid">
-          <div className="portfolio-item">
-            <img src="https://im.haberturk.com/l/2023/11/27/ver1701082044/3640476/jpg/1200x628" alt="E-commerce Platform" className="portfolio-image" />
-            <div className="portfolio-overlay">
-              <h3>E-commerce Platform</h3>
-              <p>Online store with seamless user experience and payment integration</p>
+          {portfolioItems.map((item, index) => (
+            <div className="portfolio-item" key={index}>
+              <img src={item.image} alt={item.title} className="portfolio-image" />
+              <div className="portfolio-overlay">
+                <h3>{item.title}</h3>
+                <p>{item.description}</p>
+              </div>
             </div>
-          </div>
-          <div className="portfolio-item">
-            <img src="https://imageio.forbes.com/specials-images/imageserve/60d787f52b2b7f840237cb3d/0x0.jpg?format=jpg&height=600&width=1200&fit=bounds" alt="CRM System" className="portfolio-image" />
-            <div className="portfolio-overlay">
-              <h3>CRM System</h3>
-              <p>Manage customer relationships with data-driven insights</p>
-            </div>
-          </div>
-          <div className="portfolio-item">
-            <img src="https://www.datocms-assets.com/40521/1614850600-hrms-6.png" alt="HRM Solution" className="portfolio-image" />
-            <div className="portfolio-overlay">
-              <h3>HRM Solution</h3>
-              <p>Streamline human resource management for businesses</p>
-            </div>
-          </div>
+          ))}
         </div>
       </div>
     </section>
