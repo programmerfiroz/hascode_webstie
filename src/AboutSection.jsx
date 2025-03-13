@@ -22,7 +22,7 @@ const AboutSection = () => {
             <div className="image-background"></div>
             <img src="https://tngwebsolutions.ca/wp-content/uploads/2023/05/Software-Development-Services-For-Your-Company.png" alt="Hashcode team" className="main-image" />
             <div className="experience-badge">
-              <span className="exp-number">5+</span>
+              <span className="exp-number">3+</span>
               <span className="exp-text">Years of<br />Excellence</span>
             </div>
           </div>
@@ -61,7 +61,6 @@ const AboutSection = () => {
             <div className="cta-wrapper">
               <a href="#services" className="about-cta btn primary-btn">Explore Our Services</a>
               <a href="#services" className="about-cta btn primary-btn">Get In Touch</a>
-              <a href="#contact" className="about-cta btn secondary-btn">Get In Touch ok</a>
             </div>
           </div>
         </div>

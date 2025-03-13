@@ -5,11 +5,11 @@ const Breadcrumb = ({ path }) => {
   return (
     <div className="company-stats">
           <div className="stat-box">
-            <span className="stat-value">200+</span>
+            <span className="stat-value">20+</span>
             <span className="stat-label">Projects Completed</span>
           </div>
           <div className="stat-box">
-            <span className="stat-value">50+</span>
+            <span className="stat-value">10+</span>
             <span className="stat-label">Team Members</span>
           </div>
           <div className="stat-box">
