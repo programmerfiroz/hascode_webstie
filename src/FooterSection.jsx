@@ -1,4 +1,5 @@
 import React from "react";
+import './FooterSection.css';
 import { FaFacebookF, FaTwitter, FaInstagram } from "react-icons/fa";
 
 const FooterSection = () => {
