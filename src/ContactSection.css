@@ -193,8 +193,9 @@
     flex-direction: column;
     text-align: center;
   }
-  
-  .contact-info, .contact-form {
+
+  .contact-info,
+  .contact-form {
     width: 100%;
   }
 
@@ -205,4 +206,11 @@
   .info-icon {
     margin-right: 10px;
   }
+}
+
+.icon-image {
+  width: 30px;
+  /* Adjust as needed */
+  height: 30px;
+  object-fit: contain;
 }

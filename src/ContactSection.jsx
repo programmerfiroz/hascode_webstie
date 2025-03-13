@@ -39,13 +39,14 @@ const ContactSection = () => {
             </div>
             <div className="info-item">
               <div className="info-icon phone-icon">
-                <img src="call.png" alt="Call Icon" className="icon-image" />
+                <img src="/call.png" alt="Call Icon" className="icon-image" />
               </div>
               <div className="info-text">
                 <h4>Call Us</h4>
                 <p>+91 9026663052</p>
               </div>
             </div>
+
           </div>
 
           <div className="contact-form">
