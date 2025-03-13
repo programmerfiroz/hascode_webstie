@@ -4,7 +4,7 @@ import './ServiceSection.css';
 const serviceIcons = {
   'Web Development': 'mobile.png',
   'App Development': 'android.png',
-  'UI/UX Design': 'uiux.png',
+  'UI/UX Design': 'ux.png',
   'SEO Optimization': 'seo.png',
   'Digital Marketing': 'digitalmarketing.png',
   'E-commerce Solutions': 'shopping.png',
