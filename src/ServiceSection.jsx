@@ -3,7 +3,7 @@ import './ServiceSection.css';
 
 const serviceIcons = {
   'Web Development': 'https://cdn-icons-png.flaticon.com/512/732/732212.png',
-  'App Development': 'https://cdn-icons-png.flaticon.com/512/888/888879.png',
+  'App Development': 'android.png',
   'UI/UX Design': 'https://cdn-icons-png.flaticon.com/512/1055/1055666.png',
   'SEO Optimization': 'seo.png',
   'Digital Marketing': 'https://cdn-icons-png.flaticon.com/512/733/733553.png',
