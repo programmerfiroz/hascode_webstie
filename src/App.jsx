@@ -9,17 +9,17 @@ import ServiceSection from "./ServiceSection";
 import FooterSection from "./FooterSection";
 
 
-function App(){
-  return(
+function App() {
+  return (
     <>
-    <Header/>
-    <Hero/>
-    <AboutSection/>
-    <Breadcrumb/>
-    <ContactSection/>
-    <PortfolioSection/>
-    <ServiceSection/>
-    <FooterSection/>
+      <Header />
+      <Hero />
+      <AboutSection />
+      <Breadcrumb />
+      <ContactSection />
+      <PortfolioSection />
+      <ServiceSection />
+      <FooterSection />
     </>
   )
 }
