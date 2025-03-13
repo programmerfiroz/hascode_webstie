@@ -23,21 +23,21 @@ const ContactSection = () => {
               <div className="info-icon location-icon"></div>
               <div className="info-text">
                 <h4>Our Office</h4>
-                <p>123 Tech Park, Innovation City, India</p>
+                <p>Block C, C8, C Block, Sector 63, Noida, Uttar Pradesh 201301, India</p>
               </div>
             </div>
             <div className="info-item">
               <div className="info-icon email-icon"></div>
               <div className="info-text">
                 <h4>Email Us</h4>
-                <p>contact@hashcode.in</p>
+                <p>info@hashcode.in</p>
               </div>
             </div>
             <div className="info-item">
               <div className="info-icon phone-icon"></div>
               <div className="info-text">
                 <h4>Call Us</h4>
-                <p>+91 98765 43210</p>
+                <p>+91 9026663052</p>
               </div>
             </div>
           </div>
