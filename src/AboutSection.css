@@ -255,7 +255,7 @@
 }
 
 .secondary-btn {
-  /* background: transparent; */
+  background: transparent;
   color: var(--dark-blue);
   border: 2px solid var(--dark-blue);
 }

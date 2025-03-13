@@ -60,6 +60,7 @@ const AboutSection = () => {
             </div>
             <div className="cta-wrapper">
               <a href="#services" className="about-cta btn primary-btn">Explore Our Services</a>
+              <a href="#services" className="about-cta btn primary-btn">Get In Touch</a>
               <a href="#contact" className="about-cta btn secondary-btn">Get In Touch ok</a>
             </div>
           </div>
